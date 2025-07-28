@@ -102,7 +102,7 @@ const UpdateJob = () => {
         <div className="mb-3">
           <label>Salary</label>
           <input
-            type="number"
+            type="text"
             name="salary"
             className="form-control"
             value={jobData.salary}

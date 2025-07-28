@@ -12,7 +12,7 @@ const EmployerNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to="/employer/dashboard">
+        <Navbar.Brand as={Link} to="/employer">
            Job Portal
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="employer-navbar" />

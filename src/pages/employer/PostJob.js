@@ -64,7 +64,7 @@ const PostJob = () => {
         </div>
         <div className="mb-3">
           <label>Salary</label>
-          <input type="number" name="salary" className="form-control" value={jobData.salary} onChange={handleChange} required />
+          <input type="text" name="salary" className="form-control" value={jobData.salary} onChange={handleChange} required />
         </div>
         <div className="mb-3">
           <label>Required Skills</label>
