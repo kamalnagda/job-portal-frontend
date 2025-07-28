@@ -31,6 +31,7 @@ function App() {
 
           {/*for login and registration ./pages/auth/--  */}
         <Route path="/" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/register/jobseeker" element={<JobSeekerRegisterPage />} />
         <Route path="/register/employer" element={<EmployerRegister/>} />
 
