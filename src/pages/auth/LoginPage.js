@@ -83,6 +83,12 @@ function LoginPage() {
                 <Link to="/register/employer" className="btn btn-outline-success">Register as Employer</Link>
             </div>
         </div>
+        <div className="mt-3 alert alert-danger">
+            <p>This project was developed by Kamal Nagda for educational purposes.
+                It is an open-source project, and not intended for production use.
+                Please do not share any sensitive or personal data through this platform,
+                 as your identity and data may not be fully secure.</p>
+        </div>
       </form>
     </div>
   );
